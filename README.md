@@ -15,3 +15,5 @@ sudo apt install zabbix-server-pgsql zabbix-frontend-php zabbix-apache-conf zabb
 
 ### Скриншот авторизации в Zabbix
 ![Авторизация](screenshots/zabbix_login.png)
+
+
