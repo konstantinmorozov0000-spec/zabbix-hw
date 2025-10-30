@@ -14,7 +14,9 @@ sudo -u postgres createdb -O zabbix zabbix
 sudo apt install zabbix-server-pgsql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent
 
 ### Скриншот авторизации в Zabbix
-![Авторизация](https://github.com/konstantinmorozov0000-spec/zabbix-hw/blob/main/screenshots/zabbix_login.png?raw=true)
+![Авторизация](https://raw.githubusercontent.com/konstantinmorozov0000-spec/zabbix-hw/main/screenshots/zabbix_login.png)
+
+
 
 
 
