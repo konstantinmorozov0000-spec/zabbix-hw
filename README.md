@@ -16,9 +16,32 @@ sudo apt install zabbix-server-pgsql zabbix-frontend-php zabbix-apache-conf zabb
 ```
 
 ### Скриншот авторизации в Zabbix
-![Авторизация](https://raw.githubusercontent.com/konstantinmorozov0000-spec/zabbix-hw/main/screenshots/zabbix_login.png)
 
+![Авторизация](screenshots/zabbix_login.png)
 
+## Задание 2. Подключение Zabbix Agent и проверка работы
+
+### Использованные команды
+
+```bash
+# Установка и запуск агента
+sudo apt update
+sudo apt install zabbix-agent -y
+sudo systemctl enable zabbix-agent
+sudo systemctl start zabbix-agent
+
+# Проверка статуса агента
+sudo systemctl status zabbix-agent
+
+# Редактирование конфигурации
+sudo nano /etc/zabbix/zabbix_agentd.conf
+
+# Перезапуск после изменений
+sudo systemctl restart zabbix-agent
+
+# Проверка подключения с сервера
+zabbix_get -s 127.0.0.1  -k agent.ping
+>>>>>>> 77f574e (Добавлены скриншоты и команды для заданий)
 
 
 
