@@ -41,9 +41,18 @@ sudo systemctl restart zabbix-agent
 
 # Проверка подключения с сервера
 zabbix_get -s 127.0.0.1  -k agent.ping
->>>>>>> 77f574e (Добавлены скриншоты и команды для заданий)
 
+### Скриншоты проверки работы
 
+#### 1. Раздел Configuration > Hosts
+![Hosts](screenshots/1_data_collection_hosts.png)
 
+#### 2. Лог Zabbix Agent
+![Agent Log](screenshots/2_agent_log.png)
 
+#### 3. Latest data: Debian-agent2
+![Debian Agent](screenshots/3_latest_data_debian-agent2.png)
+
+#### 4. Latest data: Zabbix server
+![Zabbix Server](screenshots/3_latest_data_zabbix_server.png)
 
