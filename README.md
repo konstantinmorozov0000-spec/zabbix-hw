@@ -27,7 +27,8 @@
 - Проверена корректность получения данных через **Latest data**
 
 ### Скриншот:
-![Задание 1](screenshots/zadanie1.png)
+![Задание 1](screenshot/zadanie1.png)
+
 
 ---
 
