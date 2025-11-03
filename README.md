@@ -43,6 +43,13 @@
 - Хосты добавлены в группу **Linux servers**
 - Привязан шаблон **Linux by Zabbix Agent**
 
+### Проверка работы Zabbix Agent
+
+Для проверки корректной работы агента выполнена команда:
+
+```bash
+sudo tail -n 20 /var/log/zabbix/zabbix_agentd.log
+
 ---
 
 ## Задание 3. Привязка пользовательского шаблона
@@ -53,7 +60,7 @@
 - Оба хоста имеют зелёный статус подключения
 
 ### Скриншот:
-![Задание 2–3](screenshots/zadanie2-3.png)
+![Zabbix Задание 3](./screenshots/zadanie3.png)
 
 ---
 
