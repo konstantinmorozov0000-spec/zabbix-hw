@@ -63,7 +63,7 @@ sudo tail -n 20 /var/log/zabbix/zabbix_agentd.log
 - Оба хоста имеют зелёный статус подключения
 
 ### Скриншот:
-![Zabbix Задание 3](/screenshots/zadanie3.png)
+![Zabbix Задание 3](/screenshot/zadanie3.png)
 
 ---
 
