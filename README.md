@@ -50,9 +50,12 @@
 ```bash
 sudo tail -n 20 /var/log/zabbix/zabbix_agentd.log
 
+```
+
 ---
 
-## Задание 3. Привязка пользовательского шаблона
+
+# Задание 3. Привязка пользовательского шаблона
 
 ### Выполненные действия:
 - К каждому хосту привязан созданный шаблон **Custom CPU+RAM Monitoring**
@@ -60,7 +63,7 @@ sudo tail -n 20 /var/log/zabbix/zabbix_agentd.log
 - Оба хоста имеют зелёный статус подключения
 
 ### Скриншот:
-![Zabbix Задание 3](./screenshots/zadanie3.png)
+![Zabbix Задание 3](/screenshots/zadanie3.png)
 
 ---
 
