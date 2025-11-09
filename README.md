@@ -80,6 +80,6 @@ sudo tail -n 20 /var/log/zabbix/zabbix_agentd.log
 - Настроено автообновление каждые 30 секунд
 
 ### Скриншот:
-![Задание 4](screenshot/zadanie4.png)
+![Задание 4](screenshot/Zadanie4_v2.png)
 
 ---
